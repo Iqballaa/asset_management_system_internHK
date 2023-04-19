@@ -1,0 +1,34 @@
+.gis-card {
+  background-image: url('https://source.unsplash.com/random/800x200');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+.card-description {
+  font-size: 1.2rem;
+}
+
+.map-container {
+  height: 400px;
+}
+
+.popup-link {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.footer-link {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #007bff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,49 @@
+/* Style untuk tabel Inventori */
+.asset__table {
+  border-collapse: collapse;
+  margin: 70px auto 0;
+  width: 90%;
+  }
+  
+  .asset__table th,
+  .asset__table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  }
+  
+  .asset__table th {
+  background-color: #87f10e;
+  font-weight: bold;
+  }
+  
+  /* Style untuk ikon aksi */
+  .action__container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  }
+  
+  .action__container > svg {
+  color: #ff0000;
+  cursor: pointer;
+  margin-right: 10px;
+  }
+
+  
+  .action__container .fa-eye {
+  color: #0ace45;
+  margin-right: 0.5rem;
+  transition: color 0.5s;
+  }
+  
+  .action__container .fa-edit {
+  color: #1380da;
+  margin-right: 0.5rem;
+  transition: color 0.5s;
+  }
+  
+  .action__container .fa-trash {
+  color: #f44336;
+  transition: color 0.5s;
+  }

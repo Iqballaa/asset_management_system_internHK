@@ -1,0 +1,147 @@
+/* Sidebar Styles */
+.sidebar {
+  background-color: #212121;
+  color: #fff;
+  height: 100%;
+  width: 270px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.sidebar__top {
+  padding: 20px;
+  text-align: center;
+}
+
+.sidebar__top h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.sidebar__content {
+  padding: 20px;
+}
+
+.nav__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__item {
+  margin-bottom: 10px;
+}
+
+.nav__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav__link:hover {
+  background-color: #4a4a4a;
+}
+
+.nav__active {
+  background-color: #4a4a4a;
+}
+
+.nav__submenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.submenu__icon {
+  margin-left: 5px;
+  transition: all 0.3s ease;
+}
+
+.submenu__icon.active {
+  transform: rotate(180deg);
+}
+
+.nav__submenu-list {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #212121;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav__submenu.active .nav__submenu-list {
+  display: block;
+}
+
+.nav__submenu-list li {
+  margin-bottom: 5px;
+}
+
+.nav__submenu-list a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.nav__submenu-list a:hover {
+  background-color: #ff0202;
+  font-weight: bold;
+}
+
+.sidebar__top h2 .label {
+  margin-left: 5px;
+}
+.nav__icon {
+  margin-right: 10px;
+}
+
+.nav__link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Mengatur posisi ikon dan teks ke kiri */
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 10px;
+  border-radius: 5px;
+}
+.nav__icon {
+  margin-right: 10px;
+  margin-left: 10px; /* Menambahkan jarak 10px antara icon dan teks label */
+}
+
+.nav__link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Mengatur posisi ikon dan teks ke kiri */
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 10px;
+  border-radius: 5px;
+}

@@ -1,0 +1,71 @@
+/* Style untuk body */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style untuk header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Style untuk menu */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Style untuk banner */
+.banner {
+  background-image: url('background.jpg');
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner h1 {
+  color: #fff;
+  font-size: 3em;
+  margin: 0;
+  text-shadow: 2px 2px #333;
+}
+
+/* Style untuk section */
+section {
+  padding: 50px;
+  text-align: justify;
+}
+
+/* Style untuk footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}

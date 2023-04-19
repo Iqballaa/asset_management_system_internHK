@@ -1,0 +1,48 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8580,
+            -6.2376
+          ]
+        },
+        "properties": {
+          "id": 1,
+          "name": "Rumah Sakit Jakarta Medical Center"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8572,
+            -6.2418
+          ]
+        },
+        "properties": {
+          "id": 2,
+          "name": "RS Sari Asih Cawang"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.8632,
+            -6.2365
+          ]
+        },
+        "properties": {
+          "id": 3,
+          "name": "RSAL Mintohardjo"
+        }
+      }
+    ]
+  }
+  
